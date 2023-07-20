@@ -23,5 +23,6 @@ python mmaction2/tools/data/build_rawframes.py data/wlasl/wlasl-complete/test da
 python mmaction2/tools/data/build_rawframes.py data/wlasl/wlasl-complete/train data/wlasl/rawframes/train --ext mp4 --task rgb --level 1 --num-worker $n_workers --out-format jpg --use-opencv
 python mmaction2/tools/data/build_rawframes.py data/wlasl/wlasl-complete/val data/wlasl/rawframes/val --ext mp4 --task rgb --level 1 --num-worker $n_workers --out-format jpg --use-opencv
 
-
-
+# Copy label files
+cp setup/wlasl/labels/wlasl_class_list.txt data/wlasl/
+cp setup/wlasl/labels/WLASL_v0.3.json data/wlasl/

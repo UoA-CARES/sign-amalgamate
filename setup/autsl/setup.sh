@@ -18,4 +18,4 @@ python mmaction2/tools/data/build_rawframes.py data/autsl/val data/autsl/rawfram
 python mmaction2/tools/data/build_rawframes.py data/autsl/train data/autsl/rawframes/train --ext mp4 --task rgb --level 1 --num-worker $n_workers --out-format jpg --use-opencv --new-width 256 --new-height 256
 
 # Copy labels file
-cp setup/autsl/labels/SignList_ClassId_TR_EN.csv ../../data/autsl/
+cp setup/autsl/labels/SignList_ClassId_TR_EN.csv data/autsl/
