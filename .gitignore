@@ -80,6 +80,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+tools/autsl/.ipynb_checkpoints
+tools/wlasl/.ipynb_checkpoints
 
 # IPython
 profile_default/
