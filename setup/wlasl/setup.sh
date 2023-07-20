@@ -25,4 +25,4 @@ python mmaction2/tools/data/build_rawframes.py data/wlasl/wlasl-complete/val dat
 
 # Copy label files
 cp setup/wlasl/labels/wlasl_class_list.txt data/wlasl/
-cp setup/wlasl/labels/WLASL_v0.3.json data/wlasl/
+cp setup/wlasl/labels/nslt_2000.json data/wlasl/
