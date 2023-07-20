@@ -12,6 +12,7 @@ data/
 # Distribution / packaging
 .Python
 build/
+build_report.txt
 develop-eggs/
 dist/
 downloads/
