@@ -4,7 +4,7 @@ import torch
 import os.path as osp
 import json
 
-from sampleframes import SampleFrames
+from .sampleframes import SampleFrames
 
 from PIL import Image
 
